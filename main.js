@@ -12,4 +12,20 @@ class Car {
     get getMerek(){
         return this.merek;
     }
+
+    startEngine(){
+        return this.engine = true;
+    }
+
+    stopEngine(){
+        return this.engine = false;
+    }
+
+    set price(harga){
+        this.harga = harga
+    }
+
+    get price(){
+        return this.price;
+    }
 }
