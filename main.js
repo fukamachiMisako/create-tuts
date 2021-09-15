@@ -21,6 +21,14 @@ class Car {
         return this.engine = false;
     }
 
+    set price(harga){
+        this.harga = harga
+    }
+
+    get price(){
+        return this.price;
+    }
+
     set color(warna){
         this.warna = warna;
     }
@@ -29,3 +37,6 @@ class Car {
         return this.warna;
     }
 }
+
+const jazz = new Car('Honda', 'Hitam', 2999);
+const fiesta = new Car('Ford', 'red', 2331);
