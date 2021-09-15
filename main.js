@@ -29,3 +29,9 @@ class Car {
         return this.price;
     }
 }
+
+
+const jazz = new Car('Honda', 'Hitam', 2999);
+const fiesta = new Car('Ford', 'red', 2331);
+
+const alvanza = new Car('Toyota', 'Ungu', 1200);
