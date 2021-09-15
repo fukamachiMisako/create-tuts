@@ -11,3 +11,8 @@ const persons = [
 persons.forEach(person => {
   console.log(person.name)
 })
+
+
+const str = 'hello world';
+const regex = /hel/g;
+const res = regex.test(str)
