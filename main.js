@@ -21,11 +21,11 @@ class Car {
         return this.engine = false;
     }
 
-    set price(harga){
-        this.harga = harga
+    set color(warna){
+        this.warna = warna;
     }
 
-    get price(){
-        return this.price;
+    get color(){
+        return this.warna;
     }
 }
